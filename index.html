@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Порно Онлайн — 18+</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Age Gate -->
+  <div id="age-gate" class="age-gate">
+    <div class="age-box">
+      <h1>18+</h1>
+      <p>Этот сайт содержит материалы для взрослых.<br>Вам уже исполнилось 18 лет?</p>
+      <div class="age-buttons">
+        <button id="btn-yes" class="btn-yes">Да, мне есть 18</button>
+        <button id="btn-no" class="btn-no">Нет</button>
+      </div>
+      <p class="age-note">Нажимая «Да», вы подтверждаете, что вам исполнилось 18 лет и вы согласны с правилами сайта.</p>
+    </div>
+  </div>
+
+  <!-- Main content (hidden until age confirmed) -->
+  <div id="main-content" class="main-content hidden">
+    <header>
+      <div class="logo">Порно <span>Онлайн</span></div>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Поиск по названию...">
+      </div>
+    </header>
+
+    <nav class="categories" id="categories">
+      <button class="cat-btn active" data-cat="all">Все</button>
+    </nav>
+
+    <main>
+      <div id="video-grid" class="video-grid"></div>
+      <div id="no-results" class="no-results hidden">Ничего не найдено</div>
+    </main>
+
+    <footer>
+      <p>Все видео загружаются по внешним ссылкам. Сайт не хранит файлы.</p>
+      <p>© 2026 Порно Онлайн · Только для взрослых 18+</p>
+    </footer>
+  </div>
+
+  <!-- Video Modal Player -->
+  <div id="player-modal" class="player-modal hidden">
+    <div class="player-overlay"></div>
+    <div class="player-box">
+      <button id="close-player" class="close-player">×</button>
+      <h2 id="player-title"></h2>
+      <div id="player-container"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
