@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Пример видео 1 (замени на реальный URL)",
+    "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "thumbnail": "",
+    "category": "Пример",
+    "duration": "0:10",
+    "type": "video"
+  },
+  {
+    "title": "Пример видео 2 — iframe embed",
+    "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "category": "Пример",
+    "duration": "3:32"
+  },
+  {
+    "title": "Добавь сюда свои видео",
+    "url": "https://example.com/video.mp4",
+    "thumbnail": "",
+    "category": "Amateur",
+    "duration": "12:45",
+    "type": "video"
+  }
+]
